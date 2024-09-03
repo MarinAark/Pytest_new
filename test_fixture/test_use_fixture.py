@@ -7,7 +7,7 @@ def test_usefixture(usefixture):
 
 
 # 写法2️⃣，使用标记传递, usefixtures中的参数只能是字符串
-@pytest.mark.usefixtures("usefixture")
+@pytest.mark.usefixtures("usefixture", "usefixture2")
 def test_usefixture2():
     print("这是函数2中的usefixture")
 

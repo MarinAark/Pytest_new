@@ -1,0 +1,53 @@
+person:
+  - name: 杭州-${random_name()}-测试开发工程师
+    age: ${age()}
+    gender: boy
+  - name: 上海-${random_name()}-测试工程师
+    age: ${age()}
+    gender: boy
+
+hero:
+  name: 小汤
+  word: 呀呼
+  HP: 250
+
+heroes1: { name: 小汤,word: 呀呼,HP: 250 }
+
+heroes_and_words:
+  - - 章三
+    - i'm 章三
+  - - 李五
+    - i'm 李六
+hero_name:
+  - 小红
+  - 小黄
+  - 小蓝
+  - 小绿
+  - 小黑
+
+heroes:
+  - name: 小黑
+    word: 哎嘿
+    HP: 222
+
+color_name:
+  - - 小红
+    - 小黄
+    - 小蓝
+    - 小绿
+    - 小黑
+
+test:
+  name: login_case1
+  request:
+    url: http://X.X.X.X/api/v1/login/
+    method: POST
+    headers:
+      Content-Type: application/json
+    json:
+      username: test
+      password: 123456
+
+mobile_phone_belong:
+  shouji: "13456755448"
+  appkey: "0c818521d38759e1"

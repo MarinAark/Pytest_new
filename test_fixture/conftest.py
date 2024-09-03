@@ -34,3 +34,8 @@ def fun():
 @pytest.fixture(scope="function")
 def usefixture():
     print("这是conftest里面的usefixture")
+
+
+@pytest.fixture(scope="function")
+def usefixture2():
+    print("这是conftest里面的usefixture2")
