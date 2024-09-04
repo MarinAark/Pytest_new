@@ -1,0 +1,4 @@
+[2024-09-03 23:19:08,255][log_util.py 51][DEBUG]: 打印debug日志
+[2024-09-03 23:19:08,255][log_util.py 52][INFO]: 打印info日志
+[2024-09-03 23:19:08,255][log_util.py 53][WARNING]: 打印warning日志
+[2024-09-03 23:19:08,255][log_util.py 54][ERROR]: 打印error日志
